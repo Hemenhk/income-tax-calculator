@@ -66,3 +66,7 @@ input {
     border: none;
     width: 50%;
 }
+
+.form {
+    height: 10%;
+}
