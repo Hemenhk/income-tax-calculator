@@ -1,0 +1,1 @@
+let grossIncome = document.getElementById("income");
