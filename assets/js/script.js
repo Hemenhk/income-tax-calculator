@@ -15,3 +15,6 @@ function taxCalculate() {
 
     incomeTax.value = Math.round(tax * 100) / 100;
 }
+
+// Event listener for entering the income in the input field.
+grossIncome.addEventListener('input', taxCalculate);
