@@ -42,3 +42,19 @@ p {
     text-align: center;
     margin: 0 auto;
 }
+
+.container-form {
+    background-color: darkslategray;
+    box-sizing: border-box;
+    flex-basis: 100%;
+    width: 50%;
+    height: 70vh;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    -moz-box-shadow: 0 0 10px #777777;
+    -webkit-box-shadow: 0 0 10px #777777;
+    box-shadow: 0 0 10px #777777;
+    border-radius: 8px;
+}
