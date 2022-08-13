@@ -1,6 +1,12 @@
 let grossIncome = document.getElementById("income");
 let incomeTax = document.getElementById('tax');
 
+
+/**
+ * This function calculates the Swedish annual income tax in SEK.
+ * The if statement contains four different calculations depending on
+ * which tax bracket the user fall into, depending on their salary.   
+ */
 function taxCalculate() {
 
     if (grossIncome.value < 0 && grossIncome.value < 18800) { // Bracket #1 - No income tax owed.
