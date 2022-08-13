@@ -70,3 +70,13 @@ input {
 .form {
     height: 10%;
 }
+
+footer {
+    margin-top: auto;
+    background-color: #1c1d1d;
+    color: #fff;
+    height: 150px;
+    width: 100vw;
+    padding-top: 30px;
+    text-align: center;
+}
