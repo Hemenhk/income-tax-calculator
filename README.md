@@ -63,3 +63,7 @@ To achieve the goals set for this project, I will implement the following featur
 * A function that will calculate the annual income taxes in Sweden.
 * An if/else statement that seperates the income into four categories, or tax brackets, which has been explained in the 'project overview'.
 * An event listener, that listens for the input value added into the income input field. Without it, the website's purpose is void. 
+
+## Design <a name="design"></a>
+
+The design of this project is extremely simple, as this is a website that only offers one usage. As such, there is no further need for customization. 
