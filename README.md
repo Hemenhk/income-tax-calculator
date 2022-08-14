@@ -109,3 +109,36 @@ I have also used the following tools:
     * Favicon was used to create a favicon for this project.
 * [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/):
     * Chrome Dev Tools was used to test the website using lighthouse.
+
+## Testing <a name="testing"></a>
+
+### Website Usage <a name="app-usage"></a>
+
+When the user uses the website, they enter a value in the first input field titled 'income:". They are also presented with a 'How to use:' section that explains how to use the website. 
+
+The image shows that if the user enters a value that is lower than 18800 SEK, the 'Tax Calculated' field will not show any data. 
+
+Screenshot of the first tax bracket:
+
+![](assets/images/first-tax-bracket.png)
+
+
+If the user enters a value equal to or greater than 18800 SEK but less than 443200 SEK, then a standard income tax of 31% is applied.
+
+Screenshot of the second tax bracket:
+
+![](assets/images/second-tax-bracket.png)
+
+
+As demonstrated in the second and third tax brackets, the percentage of income tax changes if the users enters a value that is equal or more than 443200 SEK
+
+Screenshot of the third tax bracket:
+
+![](assets/images/third-tax-bracket.png)
+
+
+If the user enters a value that is equal to or greater tha 638800 SEK, than the fourth tax bracket will be applied.
+
+Screenshot of the fourth tax bracket:
+
+![](assets/images/fourth-tax-bracket.png)
