@@ -1,3 +1,13 @@
+/* This document was created using the following webpage:
+
+https://stackoverflow.com/questions/52874066/calculating-tax-using-javascript
+
+I have borrowed code from the first answerto assist with creating the calculator.
+
+Please note some of the borrowed code has been customised by me to fit this project.
+
+I have also added my own code for additional functions for the project. */
+
 let grossIncome = document.getElementById("income");
 let incomeTax = document.getElementById('tax');
 
@@ -24,3 +34,5 @@ function taxCalculate() {
 
 // Event listener for entering the income in the input field.
 grossIncome.addEventListener('input', taxCalculate);
+
+taxCalculate()
