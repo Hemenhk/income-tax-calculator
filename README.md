@@ -82,3 +82,30 @@ Due to the short amount of time, and illness when this project began, there was 
 
 * Add a function that calculates the gross income subtracted by the income tax to provide the user with a field displaying their net income. 
 * A code to javascript that hides the 'How to use' section in a tab that opens and closes. This way the content detailing how the website functions can be hidden away until the user decides to open it. 
+
+## Technologies Used <a name="tech-used"></a>
+
+For this project, the languages used are HTML, CSS and Javascript.
+
+I have also used the following tools:
+
+* [GitPod](https://www.gitpod.io/):
+    * I used GitPod as the IDE for Income Tax Calculator and git has been used as version control.
+* [Github](https://www.github.com/):
+    * GitHub was used to create and store the repository, and also received regular commits from GitPod.
+* [AmIResponsive](http://ami.responsivedesign.is/):
+    * Am I Responsive was used to showcase the application in this README.
+* [W3C Markup Validation Service](https://validator.w3.org/nu/#textarea): 
+    * W3C was used to validate the HTML document and to identify any issues with the code and syntax erros. 
+* [W3C CSS Validation Service](https://validator.w3.org/nu/#textarea): 
+    * W3C CSS validation was used to validate the CSS document for this project and to identify any errors in the code.
+* [BeautifyTools](https://beautifytools.com/javascript-validator.php): 
+    * BeautifyTools was used to validate the javascript document for this project, and to identify any errors in the code.
+* [Google Fonts](https://fonts.google.com/): 
+    * Google Fonts was used to import fonts to use for this project. 
+* [AmIResponsive](http://ami.responsivedesign.is/):
+    * Am I Responsive was used to showcase the website in this README.
+* [Favicon.io](https://favicon.io/):
+    * Favicon was used to create a favicon for this project.
+* [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/):
+    * Chrome Dev Tools was used to test the website using lighthouse.
