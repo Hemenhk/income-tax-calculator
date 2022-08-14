@@ -142,3 +142,57 @@ If the user enters a value that is equal to or greater tha 638800 SEK, than the 
 Screenshot of the fourth tax bracket:
 
 ![](assets/images/fourth-tax-bracket.png)
+
+
+### Validation Testing <a name="val-test"></a>
+
+#### W3C Markup Validator
+
+To test the HTML code, W3C Markup Validator was used, and no issues were detected in the code.
+
+![](assets/images/html-validator.png)
+
+#### W3C CSS Validator
+
+To test the CSS code, W3C CSS Validator was used, and no issues were detected in the code.
+
+![](assets/images/css-validator.png)
+
+
+#### BeautifyTools
+
+![](assets/images/js-validator.png)
+
+To test the Javascript code, BeautifyTools was used, and no issues were detected in the code.
+
+### Lighthouse 
+
+#### Desktop 
+
+To test the performance of this website on a desktop, Lighthouse was used.
+
+![](assets/images/lighthouse-desktop.png)
+
+
+#### Mobile
+
+To test the performance of this website on a mobile device, Lighthouse was used.
+
+![](assets/images/lighthouse-mobile.png)
+
+
+
+This app was tested on the following browsers:
+
+* Google Chrome
+* Safari 
+
+The app has also been used on different devices, such as:
+
+* PC desktop
+* iPhone 12 Pro
+* MacBook Pro
+
+### Known Bugs and Fixes <a name="bugs-fix"></a>
+
+* When testing the app in it's final form I noticed an issue regarding the bmr calculation. The calculation would provide the user with both the male and female BMR. To solve this, I had to create an if statement that would take the user's gender input and execute the calculation depending on wether the input entered was '1' for male or '2' for female.
