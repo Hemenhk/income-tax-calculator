@@ -8,18 +8,6 @@ html {
     width: 100vw;
     color: #fafafa;
     font-family: 'Righteous', sans-serif;
-    animation: fadein 1.5s;
-}
-
-/* This triggers a fadein of the website when the site loads */
-@keyframes fadein {
-    0% {
-        opacity: 0%;
-    }
-
-    100% {
-        opacity: 100%;
-    }
 }
 
 h1 {
