@@ -6,7 +6,18 @@
 
 ## Project Overview
 
-Income Tax Calculator is a website that aims to provide the user with a simple way of determining how much taxes they owe the government annually. This only applies to Swedish users. This site has been created as part of my second project for Code Institute.
+Income Tax Calculator is a website that aims to provide the user with a simple way of determining how much taxes they owe the government annually. This only applies to Swedish users. 
+The website offers four tax brackets which the user might fall into: 
+
+The first bracket is for those that earn less than 18800 SEK, which excludes them from paying income taxes. 
+
+The second is for those that earn more than 18800 SEK and less than 443200 SEK, which results in a standard income tax of 31%.
+
+The third is for those that earn more than 443200 SEK but less than 638800 SEK, which results in a standard 31% income tax and then a 20% tax on the surplus. 
+
+The fourth is for those that earn more than 638800SEK SEK, which results in a standard 31% income tax and then a 25% tax on the surplus. 
+
+This site has been created as part of my second project for Code Institute.
 
 ## Table of Contents
 
@@ -44,3 +55,11 @@ The target audience of this website are Swedish inhabitants that want an easy wa
 * __App Owner Goals:__
 
     * I want to provide a website allowing the user to calculate their annual income taxes owed to the Swedish government.
+
+## Scope <a name="scope"></a>
+
+To achieve the goals set for this project, I will implement the following features:
+
+* A function that will calculate the annual income taxes in Sweden.
+* An if/else statement that seperates the income into four categories, or tax brackets, which has been explained in the 'project overview'.
+* An event listener, that listens for the input value added into the income input field. Without it, the website's purpose is void. 
