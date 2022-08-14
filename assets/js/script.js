@@ -9,7 +9,8 @@ Please note some of the borrowed code has been customised by me to fit this proj
 I have also added my own code for additional functions for the project. */
 
 let grossIncome = document.getElementById("income");
-let incomeTax = document.getElementById('tax');
+let incomeTax = document.getElementById("tax");
+let netIncome = document.getElementById("net-income");
 
 /**
  * This function calculates the Swedish annual income tax in SEK.
@@ -18,6 +19,7 @@ let incomeTax = document.getElementById('tax');
  */
 function taxCalculate() {
     var tax;
+    var net;
 
     if (grossIncome.value < 0 && grossIncome.value < 18800) { // Bracket #1 - No income tax owed.
         tax = 0 * grossIncome.value;
@@ -29,7 +31,20 @@ function taxCalculate() {
         tax = (0.31 * grossIncome.value) + (0.69 * grossIncome.value) * 0.25;
     } 
 
+    if (grossIncome.value < 0 && grossIncome.value < 18800) { // Bracket #1 - No income tax owed.
+        net = 0 * grossIncome.value;
+    } else if (grossIncome.value >= 18800 && grossIncome.value < 443200) { // Bracket #2 - 31% income taxes owed.
+        net = grossIncome.value - (grossIncome.value * 0.31);
+    } else if (grossIncome.value >= 443200 && grossIncome.value < 638800) { // Bracket #3 - 31% income taxes owed and an additional 20% taxes on the surplus.
+        net = grossIncome.value - ((0.31 * grossIncome.value) + (0.69 * grossIncome.value) * 0.2);
+    } else if (grossIncome.value >= 638800) { // Bracket #2 - 31% income taxes owed and an additional 25% taxes on the surplus.
+        net = grossIncome.value - ((0.31 * grossIncome.value) + (0.69 * grossIncome.value) * 0.25);
+    } 
+
+
+
     incomeTax.value = Math.round(tax * 100) / 100;
+    netIncome.value = Math.round(net * 100) / 100;
 }
 
 // Event listener for entering the income in the input field.
