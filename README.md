@@ -181,7 +181,6 @@ To test the performance of this website on a mobile device, Lighthouse was used.
 ![](assets/images/lighthouse-mobile.png)
 
 
-
 This app was tested on the following browsers:
 
 * Google Chrome
@@ -195,4 +194,37 @@ The app has also been used on different devices, such as:
 
 ### Known Bugs and Fixes <a name="bugs-fix"></a>
 
-* When testing the app in it's final form I noticed an issue regarding the bmr calculation. The calculation would provide the user with both the male and female BMR. To solve this, I had to create an if statement that would take the user's gender input and execute the calculation depending on wether the input entered was '1' for male or '2' for female.
+* During testing the app with Lighthouse, an issue arose where Lighthouse could not test the performance of the website. After looking into the Javascript file and CSS file, I noticed that the fadein styling element was the issue. After deleting that element, Lighthouse could test the performance of the website without any further issues.
+
+# Deployment
+
+This project was created using Gitpod, and committed to git and pushed to Github by the use of git commands.
+
+To deploy this project to GitHub Pages from the Github repository, the following steps were taken:
+
+1. Log into Github
+2. Go to repositories and select "income-tax-calculator".
+3. Select "settings" on the menu.
+4. Scroll down to "pages" and select it. 
+5. In the "source" section click on "branch" and select "main".
+6. Click save and wait for the repository to be published.
+7. Click on the link provided to access the finished website.
+
+The live link is found here https://hemenhk.github.io/income-tax-calculator/
+
+
+### Clone This Project 
+
+- Under repository press "code" and select "clone".
+- Open Git Bash.
+- Change current working directory to the location where you wish to have the cloned directory.
+- Type "git clone" and paste the URL which you copied previously.
+- Press "enter" to create a local clone.
+
+
+### Access This Project On Local Desktop
+
+- Under repository press the "code" button next to "add file".
+- Select "download zip".
+- Extract the content onto your desktop.
+- Click on any file to access the pages.
