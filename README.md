@@ -25,3 +25,22 @@ Income Tax Calculator is a website that aims to provide the user with a simple w
     * [Known Bugs and Fixes]
 5. [Deployment]
 6. [Credits]
+
+## Strategy <a name="strategy"></a>
+
+### Project Goals <a name="project-goals"></a>
+
+The goal of this website is to provide the user a simple way of determining annual income taxes owed to the Swedish government. 
+
+The target audience of this website are Swedish inhabitants that want an easy way to calculate the annual income taxes owed. 
+
+### User Intention <a name="user-intention"></a>
+
+* __App User Goals:__
+
+    * I want to get an estimation of how much taxes I owe the government.
+    * I want to be able to know under which tax bracket I fall into.
+
+* __App Owner Goals:__
+
+    * I want to provide a website allowing the user to calculate their annual income taxes owed to the Swedish government.
