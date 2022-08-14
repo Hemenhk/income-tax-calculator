@@ -21,21 +21,23 @@ This site has been created as part of my second project for Code Institute.
 
 ## Table of Contents
 
-1. [Strategy]
-    * [Project Goals]
-    * [User Intention]
-    * [Scope]
-    * [Design]
-    * [Skeleton]
+1. [Strategy](#strategy)
+    * [Project Goals](#project-goals)
+    * [User Intention](#user-intention)
+    * [Scope](#scope)
+    * [Design](#design)
 2. [Features](#features)
-    * [Current Features]
-    * [Future Features]
-3. [Technologies Uses]
-4. [Testing]
-    * [Validation Testing]
-    * [Known Bugs and Fixes]
-5. [Deployment]
-6. [Credits]
+    * [Current Features](#current-features)
+    * [Future Features](#future-features)
+3. [Technologies Used](#tech-used)
+4. [Testing](#testing)
+    * [Website Usage](#website-usage)
+    * [Validation Testing](#val-test)
+    * [Known Bugs and Fixes](#bugs-fix)
+5. [Deployment](#deployment)
+6. [Credits](#credits)
+    * [Code Content](#code-content)
+    * [Media](#media)
 
 ## Strategy <a name="strategy"></a>
 
@@ -111,7 +113,7 @@ I have also used the following tools:
 
 ## Testing <a name="testing"></a>
 
-### Website Usage <a name="app-usage"></a>
+### Website Usage <a name="website-usage"></a>
 
 When the user uses the website, they enter a value in the first input field titled 'income:". They are also presented with a 'How to use:' section that explains how to use the website. 
 
@@ -195,7 +197,7 @@ The app has also been used on different devices, such as:
 
 * During testing the app with Lighthouse, an issue arose where Lighthouse could not test the performance of the website. After looking into the Javascript file and CSS file, I noticed that the fadein styling element was the issue. After deleting that element, Lighthouse could test the performance of the website without any further issues.
 
-# Deployment
+# Deployment <a name="deployment"></a>
 
 This project was created using Gitpod, and committed to git and pushed to Github by the use of git commands.
 
@@ -229,13 +231,13 @@ The live link is found here https://hemenhk.github.io/income-tax-calculator/
 - Click on any file to access the pages.
 
 
-# Credits
+# Credits <a name="credits"></a>
 
-## Coding Content
+## Code Content <a name="code-content"></a>
 
 * The script.js document was created using the following [yunzen's](https://stackoverflow.com/questions/52874066/calculating-tax-using-javascript
 ) website tutorial, with adjustments by me. More specifically yunzen's answer. I then added my own code for the function, so that it would execute the different tax brackets. 
 
-## Media
+## Media <a name="media"></a>
 
 * The favicon was created here: [Favicon.io](https://favicon.io/)
