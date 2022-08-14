@@ -7,7 +7,7 @@
 ## Project Overview
 
 Income Tax Calculator is a website that aims to provide the user with a simple way of determining how much taxes they owe the government annually. This only applies to Swedish users. 
-The website offers four tax brackets which the user might fall into: 
+The website offers four tax brackets which the user might fall into, which are based on data from 2016, found on [Wikipedia](https://sv.wikipedia.org/wiki/Skatt_i_Sverige): 
 
 The first bracket is for those that earn less than 18800 SEK, which excludes them from paying income taxes. 
 
