@@ -67,3 +67,18 @@ To achieve the goals set for this project, I will implement the following featur
 ## Design <a name="design"></a>
 
 The design of this project is extremely simple, as this is a website that only offers one usage. As such, there is no further need for customization. 
+
+## Features <a name="features"></a>
+
+### Current Features <a name="current-features"></a>
+
+__Main__:
+
+The taxCalculate function is the only function found in this project. When this function runs, it calculates the income tax based on an if/else statement. If the user enters a value higher than a specific bracket, then a certain else if statement is executed depending on the value that they entered. 
+
+### Future Features <a name="future-features"></a>
+
+Due to the short amount of time, and illness when this project began, there was not enough time to implement addtional features.
+
+* Add a function that calculates the gross income subtracted by the income tax to provide the user with a field displaying their net income. 
+* A code to javascript that hides the 'How to use' section in a tab that opens and closes. This way the content detailing how the website functions can be hidden away until the user decides to open it. 
