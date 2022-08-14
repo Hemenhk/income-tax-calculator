@@ -228,3 +228,15 @@ The live link is found here https://hemenhk.github.io/income-tax-calculator/
 - Select "download zip".
 - Extract the content onto your desktop.
 - Click on any file to access the pages.
+
+
+# Credits
+
+## Coding Content
+
+* The script.js document was created using the following [yunzen's](https://stackoverflow.com/questions/52874066/calculating-tax-using-javascript
+) website tutorial, with adjustments by me. More specifically yunzen's answer. I then added my own code for the function, so that it would execute the different tax brackets. 
+
+## Media
+
+* The favicon was created here: [Favicon.io](https://favicon.io/)
